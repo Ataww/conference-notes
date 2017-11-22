@@ -108,8 +108,8 @@ or module path (—module-path, —module)
 	-> VM check if dependency graph is correct (slower start time)
 
 ### Better encapsulation
-* separate api from imply (≠ modules)
-	* **problem**: can use imply without api
+* separate api from impl (≠ modules)
+	* **problem**: can use impl without api
 	* **solution**: can export package to a specific module (export _foo_ to _bar_)
 * Avantage: meilleure visibilité de la sécurité
 	* sun.misc.Unsafe : allow to bypass VM when accessing ByteBuffers
